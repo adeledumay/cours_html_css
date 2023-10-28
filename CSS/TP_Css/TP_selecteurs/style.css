@@ -1,0 +1,28 @@
+h1 {
+    color: red;
+}
+
+#contenu{
+    background-color:lightgrey;
+
+}
+
+a {
+    color: green;
+}
+
+
+/*img[alt="jsp"]{
+    position: absolute;
+    right: 0;
+    
+}  */
+
+img[alt="jsp"]{
+    text-align: right;
+    
+}
+
+#p3{
+    text-align: center;
+}
