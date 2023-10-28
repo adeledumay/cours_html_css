@@ -12,14 +12,14 @@ a {
 }
 
 
-/*img[alt="jsp"]{
+/*img[alt="monimg"]{
     position: absolute;
     right: 0;
     
 }  */
 
-img[alt="jsp"]{
-    text-align: right;
+img[alt="monimg"]{
+    margin-left:735px;
     
 }
 
