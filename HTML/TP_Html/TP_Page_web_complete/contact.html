@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img id="monimgg" src="/cours_html_css/HTML/TP_Html/ressources/200.jpg">
+         <h1>Bienvenue sur mon site !</h1>
+         <nav>
+             <ul>
+                 <li><a href="index.html">Accueil</a></li>
+                 <li><a href="#art2">Blog</a></li>
+                 <li><a href="galerie.html">Galerie</a></li>
+                 <li><a href="contact.html">Contact</a></li>  
+             </ul>
+         </nav>
+     </header>
+     <section>
+        <form action="idk.php" method="POST">
+            <fieldset>
+                <legend>Contact</legend>
+                <div>
+                    <label for="nom">Nom: </label>
+                    <input id="nom" type="text" placeholder="Ex: Robert" minlength="2" maxlength="20">
+                </div>
+                <div>
+                    <label for="email">E-mail: </label>
+                    <input id="email" type="email" placeholder="Ex: monMail@FAI.com">
+                </div>
+                <div>
+                    <label>Laissez un commentaire:</label><br/>
+                    <textarea cols="70" rows="10" placeholder="Je dépose mon avis"></textarea>
+                    
+                </div>
+                <div>
+                    <input type="checkbox" checked>
+                    <label>Envoyer une copie par E-mail !</label><br/>
+                </div>
+                <div>
+                    <input type="submit" value="Envoyer">
+                    <input type="reset" value="reset">
+                </div>
+                    
+                
+                
+            </fieldset>
+        </form>
+     </section>
+     <footer>
+        <ul>
+            <li><a href="">Lien</a></li>
+            <li><a href="">Lien</a></li>
+            <li><a href="">Lien</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
