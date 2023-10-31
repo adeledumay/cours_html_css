@@ -17,12 +17,18 @@ a {
     right: 0;
     
 }  */
+.part2{
+    text-align:right;
+}
 
-img[alt="monimg"]{
+p:nth-child(2){
+    text-align: center;
+}
+/*img[alt="monimg"]{
     margin-left:735px;
     
 }
 
 #p3{
     text-align: center;
-}
+}*/
