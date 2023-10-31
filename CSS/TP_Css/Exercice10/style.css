@@ -1,0 +1,22 @@
+p{
+    background-color: lightgrey;
+    border: 1px solid green;
+}
+
+p:nth-child(1){
+    height: 100px;
+    padding: 20px;
+}
+
+p:nth-child(2){
+    width: 50%;
+    padding: 1.2em
+    
+}
+
+p:nth-child(3){
+    width: 200px;
+    height: 200px;
+    padding: -30px;
+    
+}
