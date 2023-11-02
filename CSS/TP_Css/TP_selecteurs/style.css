@@ -11,18 +11,10 @@ a {
     color: green;
 }
 
-
-/*img[alt="monimg"]{
-    position: absolute;
-    right: 0;
-    
-}  */
-
-img[alt="monimg"]{
-    margin-left:735px;
-    
+.part2{
+    text-align:right;
 }
 
-#p3{
+p:nth-child(2){
     text-align: center;
 }

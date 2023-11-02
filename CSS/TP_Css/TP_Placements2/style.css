@@ -1,0 +1,48 @@
+
+/*Les sélecteurs peuvent être améliorés*/
+form{
+    width: 400px;
+    height: 250px;
+    border: 1px solid black;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+.button{
+    text-align:center;
+}
+
+
+label:nth-child(2){
+    padding-left: 30px;
+    padding-right: 20px;
+    
+}
+
+#pseudo, #mdp{
+    margin-bottom: 20px;
+}
+
+[for=mdp]{
+    
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+#checkbox{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+[type=button]{
+    margin-top: 20px;
+    
+}
+
+[type=button]:hover{
+    color:white;
+    background-color: black;
+}
