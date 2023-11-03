@@ -1,0 +1,127 @@
+.rules{
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: lightgray;
+}
+
+#art1{
+
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    
+}
+
+#art1 p{
+    margin: 0;
+
+}
+h1{
+    margin: 0 0 20px 0;
+}
+
+
+
+#titre1, #rules-applied, #first-rule, #second-rule{
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    align-self: first baseline;
+}
+
+.rule1, .rule2, .rule3, .rule4, .rule5, .rule6{
+    width: 99%;
+    height: 30px;
+    padding-left: 5px;
+    padding-bottom: 15px;
+    
+}
+
+body{
+    background-color: lightgray;
+    height: 550px;
+    margin: 0;
+}
+
+@media all{
+    div{
+        background-color: white;
+    }
+}
+
+
+@media screen and (max-width: 640px){
+     #first-rule::after{
+        content: "@media screen and (max-width: 640px)"; 
+        display: block;
+        padding: 5px;
+        color: #7F00FF;
+    }
+    .rule1{
+        background-color: #7F00FF;
+        color: white;
+    }
+    
+}
+
+@media screen and (min-width: 800px){
+    #first-rule::after{
+        content: "@media screen and (min-width: 800px)";
+        color: #7F00FF;
+        
+    }
+    .rule2{
+        background-color: #7F00FF;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+    #third-rule::after{
+        content:"@media screen and (min-width: 1024px) and (max-width: 1280px)";
+        color: #7F00FF;
+    }
+    .rule3{
+        background-color: #7F00FF;
+        color: white;
+    }
+}
+
+@media screen and (max-device-width: 480px) {
+    #first-rule::after{
+        content: "@media screen and (max-device-width: 480px)";
+        color: #7F00FF;
+        
+    }
+    .rule4{
+        background-color: #7F00FF;
+        color: white;
+    }
+}
+
+@media (orientation: portrait){
+    #second-rule::after{
+        content: "@media (orientation: portrait)";
+        color: #7F00FF;
+        
+    }
+    .rule5{
+        background-color: #7F00FF;
+        color: white;
+    }
+}
+
+@media (orientation: landscape){
+    #second-rule::after{
+        content: "@media (orientation: landscape)";
+        color: #7F00FF;
+        
+    }
+    .rule6{
+        background-color: #7F00FF;
+        color: white;
+    }
+}
